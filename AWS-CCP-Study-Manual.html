@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Sleep Is Studying Too — a mirror of my becoming™ · Ship 11 — Neuroplasticize™ — encode by day, consolidate by night™ · by Evelyn Caro · AWS CLF-C02 Study Manual</title>
+<title>Sleep Is Studying Too™ — a mirror of my becoming™ · Ship 11 — Neuroplasticize™ — encode by day, consolidate by night™ · by Evelyn Caro · AWS CLF-C02 Study Manual</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 <style>
 @page { size: 720px 1020px; margin: 40px 0 46px 0; }
@@ -259,9 +259,46 @@ td.num { font-weight: 700; color: var(--accent); white-space: nowrap; }
 }
 .colophon p { margin-bottom: 4px; }
 .colophon p:last-child { margin-bottom: 0; }
+/* ============ ORANGE POP: shadow highlight boxes behind every orange on parchment ============ */
+.front-kicker, .section-tag, .note-card .note-from, .sidebar-card .side-label,
+.colo-brand, .ending-kicker {
+  display: inline-block;
+  background: linear-gradient(180deg, rgba(166,91,54,0.14), rgba(166,91,54,0.07));
+  box-shadow: inset 0 0 0 0.5px rgba(166,91,54,0.28), 0 1px 2px rgba(80,61,51,0.14);
+  border-radius: 4px;
+  padding: 3px 10px 4px;
+}
+.front-brandmark {
+  background: linear-gradient(180deg, rgba(166,91,54,0.12), rgba(166,91,54,0.06));
+  box-shadow: inset 0 0 0 0.5px rgba(166,91,54,0.24), 0 1px 2px rgba(80,61,51,0.12);
+  border-radius: 6px;
+  padding: 10px 14px 12px;
+}
+.quiz .q-opts b, .style-card .ai-line, td.num {
+  background: linear-gradient(180deg, rgba(166,91,54,0.17), rgba(166,91,54,0.09));
+  box-shadow: 0 1px 1.5px rgba(80,61,51,0.16);
+  border-radius: 3px;
+  padding: 0 4px 1px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.divider, .ending-divider, .front-divider { box-shadow: 0 1px 2px rgba(80,61,51,0.28); }
+
+/* ============ RUNNING FOOTER: every printed page carries the marks ============ */
+.runfoot { display: none; }
+@media print {
+  .runfoot {
+    display: block; position: fixed; bottom: 14px; left: 0; right: 0;
+    text-align: center; font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    font-size: 8px; letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--muted); z-index: 50;
+  }
+}
 </style>
 </head>
 <body>
+
+<div class="runfoot">A Mirror of My Becoming™ · Ship 11 · Neuroplasticize™ · Encode by day, consolidate by night™ · © 2026 Evelyn Caro · qaevelyn.github.io</div>
 
 <!-- ==================== COVER ==================== -->
 <div class="front">
@@ -273,11 +310,12 @@ td.num { font-weight: 700; color: var(--accent); white-space: nowrap; }
   <div class="front-brandmark">A Mirror of My Becoming™ · Ship 11 — Neuroplasticize™<span class="tm-line2">encode by day, consolidate by night™</span><span class="tm-line2">by Evelyn Caro</span></div>
   <div class="front-content">
     <div class="front-kicker">A Field Manual for the Exhausted Student</div>
-    <div class="front-title">Sleep Is Studying Too</div>
+    <div class="front-title">Sleep Is Studying Too™</div>
     <div class="front-subtitle">The tired person's guide to the AWS Cloud Practitioner exam</div>
     <div class="front-summary">Pass the AWS CCP with 45 focused minutes a day, a free AI study partner, and one full night of sleep — not with all-nighters. Test first, let the misses build your plan, anchor what matters, and let sleep do the heavy lifting — built on the Neuroplasticize™ method: encode by day, consolidate by night™.</div>
     <div class="front-divider"></div>
-    <div class="front-meta">Prepared for a fellow student · Ship 11 · Second edition · October 2026</div>
+    <div class="front-meta">Prepared for a fellow student · Ship 11 · Second edition · October 2026<br>
+            © 2026 Evelyn Caro · dual-licensed: AGPL-3.0 + commercial</div>
   </div>
   <div class="front-footer">
     <span>CLF-C02 · 65 Questions · 700 to Pass</span>
@@ -331,7 +369,7 @@ td.num { font-weight: 700; color: var(--accent); white-space: nowrap; }
   <p>This manual is built for understanding, not rote drilling: plain language, patterns, and why before what — because an exhausted mind is the worst machine there is for raw repetition without meaning. If pure repetition is the engine that has always worked for you, nothing here will stop you — but this is not a flashcard deck, and it will never ask you to memorize a word you do not understand. That is not a flaw to fix; it is the design, stated up front so you can decide whether this road is yours. To the non-rote learners: this was built for you. To everyone else: the five styles above still tell you how to make the maps fit.</p>
 
   <h3 class="sub">Now make the loop yours</h3>
-  <p>The six-step loop in Section 02 is written in palace — style E — because it's mine. If you tested E, run it exactly as written and move on. If you didn't, keep the skeleton and swap the middle: test first, teach from your misses, do a bedtime ritual, sleep eight hours, recall in the morning — that part never changes. Visual learners redraw their diagram of the day from memory; auditory learners record a one-minute recap of the three facts out loud; read/write learners rewrite their three anchors by hand; kinesthetic learners run one small free-tier drill last thing before bed. The AI translates the whole loop once it knows your letter — you'll add one line to the kickoff prompt in Section 05, and from the second session on, the system will be running your style, not mine. However you take things in, the method underneath is the same: encode by day, consolidate by night™. This manual runs on the <strong>Neuroplasticize™</strong> method — spaced review, plain language, and real sleep. Sleep is studying too.</p>
+  <p>The six-step loop in Section 02 is written in palace — style E — because it's mine. If you tested E, run it exactly as written and move on. If you didn't, keep the skeleton and swap the middle: test first, teach from your misses, do a bedtime ritual, sleep eight hours, recall in the morning — that part never changes. Visual learners redraw their diagram of the day from memory; auditory learners record a one-minute recap of the three facts out loud; read/write learners rewrite their three anchors by hand; kinesthetic learners run one small free-tier drill last thing before bed. The AI translates the whole loop once it knows your letter — you'll add one line to the kickoff prompt in Section 05, and from the second session on, the system will be running your style, not mine. However you take things in, the method underneath is the same: encode by day, consolidate by night™. This manual runs on the <strong>Neuroplasticize™</strong> method — spaced review, plain language, and real sleep. Sleep is studying too™.</p>
 
   <!-- SECTION 02 -->
   <div class="chapter-header">
@@ -550,10 +588,13 @@ td.num { font-weight: 700; color: var(--accent); white-space: nowrap; }
     <div class="ending-sign">Evelyn</div>
     <div class="colophon">
       <div class="colo-brand">a mirror of my becoming™ · ship 11 · neuroplasticize™</div>
-      <p>© 2026 Evelyn Caro · released under AGPL-3.0</p>
+      <p>© 2026 Evelyn Caro. All marks asserted.</p>
+      <p>Neuroplasticize™ · encode by day, consolidate by night™ · Sleep Is Studying Too™ · A Mirror of My Becoming™ — trademarks of Evelyn Caro, asserted on the method, the slogans, and every artifact built on them.</p>
+      <p>Dual-licensed: AGPL-3.0 — free for anyone to use, study, share, and modify · commercial license available for terms the AGPL can’t give you (evelyn.caro.cloud@gmail.com).</p>
+      <p>Template edition — written for one fellow student, shipped for everyone. The AGPL is the permission; the marks say whose it is.</p>
       <p>Written and built by Evelyn Caro · qaevelyn.github.io · Ship 11 source: github.com/qaevelyn/a-mirror-of-my-becoming-ship11-aws-ccp-study-manual</p>
       <p>Second edition · October 2026 · Published by A Mirror of My Becoming™ (Ship 11) · AWS Certified Cloud Practitioner (CLF-C02) study manual</p>
-      <p>Built on the Neuroplasticize™ method — encode by day, consolidate by night™. Sleep is studying too.</p>
+      <p>Built on the Neuroplasticize™ method — encode by day, consolidate by night™. Sleep is studying too™.</p>
       <p>This manual carries its author's name on every page. If your copy is missing it, it didn't come from her — ask for the real one.</p>
     </div>
   </div>
