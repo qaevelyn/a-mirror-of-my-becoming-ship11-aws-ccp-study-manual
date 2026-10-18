@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this manual, please cite it using this metadata."
+title: "A Mirror of My Becoming - AWS CCP Study Manual (Ship 11, finished edition)"
+authors:
+  - alias: qaevelyn
+type: book
+version: v1.0.1
+date-released: "2026-10-18"
+doi: 10.5281/zenodo.23458898
+url: "https://github.com/qaevelyn/a-mirror-of-my-becoming-ship11-aws-ccp-study-manual"
+abstract: "AWS Certified Cloud Practitioner study manual - the Ship 11 finished edition of the Mirror Project. Verified final PDF: 1,169,460 bytes, 17 pages, sha256 2d77054a04ba2145c54989f630df3914e60fcbd88008352f239d50c5584fbc6e. Printed from the sha-verified finished html via playwright/chromium."
