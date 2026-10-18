@@ -1,6 +1,6 @@
 # Ship 11 — Neuroplasticize™ — AWS CLF-C02 Study Manual
 
-> Encode by day, consolidate by night™ — sleep is studying too.
+> Encode by day, consolidate by night™ — sleep is studying too™.
 
 *Ship 11 of **a mirror of my becoming™** — the open fleet.*
 
