@@ -49,3 +49,11 @@ Dual-licensed: **AGPL-3.0** — free for anyone to use, study, share, and modify
 ## Release
 
 v1.0.0 — the finished edition. This release is what Zenodo mints the DOI from; the DOI lands here and on the portfolio the moment it exists.
+
+
+---
+
+## Citation
+
+Caro, Evelyn. *A Mirror of My Becoming — Ship 11: AWS Cloud Practitioner Study Manual*.
+GitHub, qaevelyn/a-mirror-of-my-becoming-ship11-aws-ccp-study-manual. CC BY 4.0.
